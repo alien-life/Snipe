@@ -10,10 +10,6 @@ use std::fs::File;
 use std::path::Path;
 use urlencoding::encode;
 
-
-//discord bot token MTA5ODgwNTYyOTc3NjMxMDMzMw.G0vu1C.6WkSSnkJZkUQcGx_x7mB1M65eyWU5PX89mPfRQ
-
-
 #[derive(Parser, Default, Debug)]
 #[clap(author, version, about)]
 ///a cli tool for sniping minecraft usernames
